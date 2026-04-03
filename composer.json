@@ -1,0 +1,29 @@
+{
+    "name": "elcheco/sortable-pillbox",
+    "description": "A searchable pillbox Livewire component with drag-and-drop sortable pills",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elcheco\\SortablePillbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miroslav Koula",
+            "email": "mkoula@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "livewire/livewire": "^4.0",
+        "illuminate/support": "^12.0 || ^13.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elcheco\\SortablePillbox\\SortablePillboxServiceProvider"
+            ]
+        }
+    }
+}
